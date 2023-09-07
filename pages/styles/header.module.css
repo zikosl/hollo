@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+.image{
+    object-fit: contain;
+    width: 120px;
+    height: 45px;
+}

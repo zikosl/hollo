@@ -1,0 +1,37 @@
+.container {
+    padding: 0 ;
+}
+.body{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 95.7206px;
+    line-height: 80.9%;
+
+    /* or 77px */
+    text-align: center;
+
+    color: #2D2669;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47.8603px;
+    line-height: 142.5%;
+
+    /* or 68px */
+    text-align: center;
+
+    color: #2D2669;
+}
+.h2>span{
+    font-weight: 800;
+    color: #F5BB3D;
+}

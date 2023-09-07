@@ -1,0 +1,51 @@
+.radio{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.radio>div {
+    border: 1px solid #BDBDBD;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 8px;
+    cursor: pointer;
+}
+.radio>div>span {
+    background: #7047EB;
+    width:10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.radio p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    /* Text Color */
+    color: #25252D;
+}
+.radio h1{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    
+    /* or 22px */
+    
+    /* Gray 3 */
+    color: #828282;
+    
+    
+}

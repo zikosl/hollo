@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.image{
+    object-fit: contain;
+    width: 120px;
+    height: 45px;
+}
+.basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+    cursor: pointer;
+}
+.basket>div{
+    position: relative;
+}
+.basket b{
+   font-size: 10px;
+   position: absolute;
+   top: -5px;
+   right: -5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 15px;
+   height: 15px;
+   border-radius: 8px;
+   color: white;
+   background: #F5BB3D;
+}
+.basket p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    /* identical to box height */
+
+    /* Main color */
+    color: #2F294D;
+}
+.basket span{
+    font-weight: 400;
+}
+
+.brows{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 8px;
+    background: #2D2669;
+}
+.brows i{
+    font-size: 24px;
+    color: #fff;
+    padding-right: 9px;
+}
+.brows p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    /* identical to box height */
+
+    /* white */
+    color: #FFFFFF;
+}

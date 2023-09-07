@@ -1,0 +1,78 @@
+
+.card{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border: 0.2px solid #ddd;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+}
+.image{
+    object-fit: contain;
+}
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 5px;    
+    margin-bottom: 5px;    
+    /* identical to box height */
+    
+    color: #2D2669;
+}
+.subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;    
+    /* identical to box height */
+
+    color: #8E99AF;
+}
+.price{
+    padding-top: 19px;
+    padding-bottom: 13px;
+    padding-right: 11px;
+    padding-left: 10px;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(180deg, #F5BB3D 0%, #DFAA36 100%);
+    transform: scaleY(0);
+    transition: transform 0.5s ease;
+    transform-origin: 0 100%;
+}
+.card:hover .price{
+    transform: scaleY(1);
+}
+.price p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+
+/* identical to box height */
+margin-top: 0px;    
+margin-bottom: 0px;   
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+@media screen and (max-width:576px) {
+    .card{
+        width: auto;
+
+        margin: 5px;
+    }
+}

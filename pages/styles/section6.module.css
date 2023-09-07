@@ -1,0 +1,238 @@
+
+.container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+
+    /* identical to box height, or 124% */
+
+    color: #2D2669;
+    margin-bottom: 25px;
+}
+
+.rows{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    width: 100%;
+    margin-top: 4em;
+}
+
+.p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: rgba(45, 38, 105, 0.8);
+}
+.contact{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+
+    /* or 124% */
+    letter-spacing: -0.4px;
+
+    color: #2D2669;
+}
+
+.dcontact{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+
+    /* or 145% */
+
+    color: #2D2669;
+
+    mix-blend-mode: normal;
+}
+.phone{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.phone p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    
+    /* identical to box height, or 162% */
+    
+    color: #2D2669;
+    margin-left: 15px;
+}
+.phone i{
+    font-size: 18px;
+    line-height: 38px;
+
+    /* identical to box height, or 211% */
+    text-align: center;
+
+    color: #2D2669;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+.form{
+    background: #FFFFFF;
+    border: 1px solid rgba(115, 115, 162, 0.55);
+    border-radius: 10px;
+    padding: 50px;
+}
+.formitem p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    
+    /* identical to box height, or 186% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #1E0E62;
+    text-transform: uppercase;
+}
+.form input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    /* identical to box height, or 144% */
+    display: flex;
+    align-items: center;
+
+    color: rgba(21, 20, 57, 0.36);
+
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid #2D2669;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.form textarea{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    /* identical to box height, or 144% */
+    display: flex;
+    align-items: center;
+
+    color: rgba(21, 20, 57, 0.36);
+
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid #2D2669;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    /* identical to box height, or 144% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #F5BB3D;
+    border-radius: 100px;
+    padding: 12px 27px;
+    border: none;
+    margin: 8px;
+}
+@media screen and (max-width:576px) {
+    .rows
+    {
+        flex-direction: column;
+    }
+    .h1,.contact{
+        font-size: 25px;        
+    }
+    .p,.dcontact{
+        font-size: 18px;  
+    }
+    .flex{
+        padding: 10px;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    
+    .section{
+        min-height: auto;
+    }
+    .flex img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .container{
+        padding-bottom: 3em;
+    }
+    .form{
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    .formitem p{
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .form input{
+        font-size: 12px;
+        padding: 9px;
+    }
+    
+    .form textarea{
+        font-size: 12px;
+        padding: 7px;
+    }
+}

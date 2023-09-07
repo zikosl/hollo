@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F5BB3D;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.header.active{
+    width: 150px;
+}
+.container{
+    top: 0;
+    right: 0 ;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 999;
+}
+.image{
+    margin-left: 3em;
+    margin-right: 3em;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    width: 100%;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+.item>span{
+    border-top: 7px solid #2D2669;
+    border-bottom: 7px solid #2D2669;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate:0 -50%;
+    width: 0;
+    transition: all 0.2s;
+}
+.item.active>span,.item:hover>span{
+    width: 20px;
+}
+.item>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    /* or 22px */
+
+    color: rgba(45, 38, 105, 0.8);
+}
+.h1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 140%;
+
+    /* or 50px */
+
+    color: #2D2669;
+
+    transform: rotate(90deg);
+    width: 2em;
+}
+.h1>span{
+    font-weight: 400;
+}
+.footer{
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.footer>i{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #2D2669;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.footer>i:hover{
+    color: #fff
+}
+
+@media screen and (max-width:576px) {
+.h1{
+    display: none;
+}
+}

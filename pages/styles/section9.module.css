@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex: 1;
+    align-items: top;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 10em;
+    /*padding-right: 10em;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.flex{
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
